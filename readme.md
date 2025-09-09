@@ -22,6 +22,8 @@ To install and use the Prompt Beautify node without Manager, follow these steps:
 2. Navigate to the `ComfyUI/custom_nodes/` directory.
 3. Run the following command:
 ```git clone https://github.com/brenzel/comfyui-prompt-beautify.git```
-4. Restart ComfyUI.
+4. Then run following command:
+```pip install -r comfyui-prompt-beautify/requirements.txt```
+6. Restart ComfyUI.
 
 This command clones the Prompt Beautify repository into your `ComfyUI/custom_nodes/` directory. You should now be able to access and use the node from this repository.
