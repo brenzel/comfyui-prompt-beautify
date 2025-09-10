@@ -1,0 +1,29 @@
+[project]
+name = "prompt-beautify"
+description = ""
+version = "1.0.0"
+license = {file = "LICENSE"} 
+classifiers = [
+     # For OS-independent nodes (works on all operating systems)
+     "Operating System :: OS Independent",
+
+     # GPU Accelerator support. Pick the ones that are supported by your extension.
+     "Environment :: GPU :: NVIDIA CUDA",    # NVIDIA CUDA support
+     "Environment :: GPU :: Apple Metal",    # Apple Metal support
+]
+
+dependencies = ["llama-cpp-python", "requests"]
+
+[project.urls]
+Repository = "https://github.com/brenzel/comfyui-prompt-beautify"
+#  Used by Comfy Registry https://registry.comfy.org
+Documentation = "https://github.com/brenzel/comfyui-prompt-beautify/wiki"
+"Bug Tracker" = "https://github.com/brenzel/comfyui-prompt-beautify/issues"
+
+[tool.comfy]
+PublisherId = "brenzel"
+DisplayName = "comfyui-prompt-beautify"
+Icon = ""
+includes = [] 
+# "requires-comfyui" = ">=1.0.0"  # ComfyUI version compatibility
+
