@@ -8,12 +8,11 @@
 
 To install and use the Prompt Beautify node with Manager, follow these steps:
 
-1. Click on Manager.
-2. Click on Button "Custom Node Manager".
-3. Click on "Install via Git URL"
-4. Enter "https://github.com/brenzel/comfyui-prompt-beautify.git"
-5. Press Confirm
-6. Restart ComfyUI.
+1. Click on Manager
+2. Click on Button "Custom Node Manager"
+3. Search for "prompt beautify"
+4. Click Install
+5. Restart ComfyUI.
 
 
 To install and use the Prompt Beautify node without Manager, follow these steps:
