@@ -4,6 +4,8 @@
 
 ![Screenshot](examples/screenshot.png)
 
+![Screenshot](examples/screenshot-advanced.png)
+
 ### Installation
 
 To install and use the Prompt Beautify node with Manager, follow these steps:
